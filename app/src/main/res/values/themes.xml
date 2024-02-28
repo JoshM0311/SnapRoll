@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Theme.SnapRoll" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Teal</item>
+        <item name="colorPrimaryVariant">@color/Teal</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/Teal</item>
+
+        <!-- Define custom style for BottomNavigationView -->
+        <item name="bottomNavigationStyle">@style/CustomBottomNavigationView</item>
+    </style>
+
+    <!-- Custom style for BottomNavigationView -->
+    <style name="CustomBottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <!-- Set background color to teal -->
+        <item name="android:background">@color/white</item>
+    </style>
+</resources>
